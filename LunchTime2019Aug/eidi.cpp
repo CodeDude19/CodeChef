@@ -2,6 +2,7 @@
 using namespace std;
 string solnFn(int n1,int n2,int n3,int m1,int m2, int m3){
     //case1 all same age :
+    //need to sort first
     if(n1==n2==n3){
         if(m1==m2==m3) return "FAIR";
         else return "NOT FAIR";
